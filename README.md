@@ -1,2 +1,10 @@
-# power-bi-dashboard
-A data visualization project using Power BI to analyze trends, business metrics, and key insights through interactive dashboards.
+# POWER BI BUSINESS INSIGHTS DASHBOARD PROJECT
+
+---
+
+## Project Overview
+This Power BI project follows a complete data analysis workflow—importing, cleaning, modeling, and visualizing business data to uncover actionable insights. It showcases strong skills in data transformation, DAX calculations, and interactive reporting to support informed decision-making.
+
+--
+
+##
