@@ -7,4 +7,9 @@ This Power BI project follows a complete data analysis workflow; importing, clea
 
 ---
 
-##
+## Data Preparation & ETL Process
+This project follows a complete ETL (Extract, Transform, Load) pipeline to ensure clean, structured data for analysis in Power BI.
+### Data Extraction - Loading Source Files into Power Query
+- Imported CSV files & folder-based data from raw datasets
+- 
+
