@@ -19,7 +19,7 @@ This project follows a complete **ETL (Extract, Transform, Load) pipeline** to e
 - **Eliminated duplicates and handled missing values** to maintain data integrity
 - **Standardized column names & data types** for consistency across tables
 - **Applied transformation steps**, including splitting/merging columns, formatting values, and extracting needed information
-- **Created new calculated columns** to enhance analysis
+- **Created many new calculated columns** to enhance analysis
 -  **Built a Calendar Table** with calculated columns (Week, Month, Year, Start of Year, Start of Quarter) for time-based analysis
 
 ### Data Loading - Loading Data to BI Front-end
@@ -40,6 +40,22 @@ After loading the cleaned dataset to Power BI fronend, a well built data model w
 ---
 
 ## DAX Measures
+DAX (Data Analysis Expressions) was used to create custom calculations for dynamic reporting and accurate business analysis. To keep all measures organized, a separate table  'Measure Table' was created to store them in one place, making them to find and manage easily.
+
+### Key DAX Measures
+- Total Orders: Calculates the total number of orders placed
+- Weekend Orders: Calculates the number of orders made on Saturday & Sunday
+- % of All Orders: Measures how a specific subset of orders contributes to total order
+- Revenue Target: Compares current revenue with the predefined target
+- Return Rate: Calculates the percentage of returned orders compared to total orders
+- Previous Month Profit: Gets the total profit from the last month
+- Average Revenue Per Customer: Calculates the average revenue generated per individual customer
+- 90 Days Rolling Profit: Calculates total profit over the last 90 days, updating dynamically as new data comes in
+
+---
+
+## Data Visualization
+
 
 
 
