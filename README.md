@@ -77,11 +77,11 @@ The final data and DAX measures were used to display key metrics, trends, compar
 
 ---
 
-## Dashboard Breakdown
-Finally come the dashboards. Each dashboard provides insights into different aspects of the business.
+## Dashboards Breakdown
+Finally come the dashboards. Each dashboard provides insights into different aspects of the business and contains a page navigator, allowing users to seamlessly switch between different report pages for a smooth and interactive experience.
 
 ### 1. Executive Summary Dashboard
-Provides a high-level overview of total revenue, total profit, total orders, return rate, weekely revenue trend, key metrics KPI, top 10 products etc.
+Provides a high-level overview of total revenue, total profit, total orders, return rate, weekely revenue trend, key metrics KPI, top 10 products etc. Also features a slicer pane and a button to reset all filters.
 
 ![Executive Dashboard](screenshots/01-exec-dashboard.jpg)
 
@@ -91,7 +91,7 @@ Shows the total orders distribution across continents. It also features a slicer
 ![Map Dashboard](screenshots/02-map-dashboard.jpg)
 
 ### 3. Product Details Dashboard
-It is a drill-through page that provides a deep dive into individual product performance (monthly orders, revenue against set target, profit, revenue trending), accessible from the main executive dashboard.
+It is a drill-through page that provides a deep dive into individual product performance (monthly orders, revenue against set target, profit & revenue trending), accessible from the main executive dashboard.
 
 ![Product Dashboard](screenshots/03-product-details-dashboard.jpg)
 
