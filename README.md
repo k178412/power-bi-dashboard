@@ -52,6 +52,7 @@ DAX (Data Analysis Expressions) was used to create custom calculations for dynam
 - **Average Revenue Per Customer** - Calculates the average revenue generated per individual customer
 - **90 Days Rolling Profit** - Calculates total profit over the last 90 days, updating dynamically as new data comes in
   - = CALCULATE([Total Profit], DATESINPERIOD('Calendar Lookup'[Date], MAX('Calendar Lookup'[Date]), -90, DAY))
+  * example
   
 ---
 
