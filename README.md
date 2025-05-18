@@ -74,7 +74,6 @@ The final data and DAX measures were used to display key metrics, trends, compar
 - **Custom tooltip** on hover
 - **Page navigation** using buttons
 - **Custom slicer pane** using buttons and bookmarks
-  ![Slicer Pane]()
 
 ---
 
