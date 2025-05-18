@@ -37,7 +37,8 @@ After loading the cleaned dataset to Power BI fronend, a well built data model w
 - **Used snowflake schema** to ensure efficient query performance
 - **Hid specific columns** to prevent incorrect filtering in dashboards
 
-![Data Model](screenshots/Data Model.png)
+### Data Model Diagram:
+![Data Model](screenshots/data-model.png)
 
 ---
 
@@ -73,6 +74,7 @@ The final data and DAX measures were used to display key metrics, trends, compar
 - **Custom tooltip** on hover
 - **Page navigation** using buttons
 - **Custom slicer pane** using buttons and bookmarks
+  ![Slicer Pane]()
 
 ---
 
