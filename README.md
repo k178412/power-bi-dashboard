@@ -10,11 +10,11 @@ This Power BI project follows a complete data analysis workflow; importing, clea
 ## Data Preparation & ETL Process
 This project follows a complete **ETL (Extract, Transform, Load) pipeline** to ensure clean, structured data for analysis in Power BI.
 
-### Data Extraction - Loading Raw Data into Power Query
+### 1. Data Extraction - Loading Raw Data into Power Query
 - **Imported CSV files & folder-based data** into query editor
 - **Combined multiple files** into structured tables
 
-### Data Transformation - Cleaning the Data
+### 2. Data Transformation - Cleaning the Data
 - **Removed erorrs and empty rows** to ensure data accuracy
 - **Eliminated duplicates and handled missing values** to maintain data integrity
 - **Standardized column names & data types** for consistency across tables
@@ -22,7 +22,7 @@ This project follows a complete **ETL (Extract, Transform, Load) pipeline** to e
 - **Created many new calculated columns** to enhance analysis
 -  **Built a Calendar Table** with calculated columns (Week, Month, Year, Start of Year, Start of Quarter) for time-based analysis
 
-### Data Loading - Loading Data to BI Front-end
+### 3. Data Loading - Loading Data to BI Front-end
 - **Loaded cleaned and transformed data** from Power Query into Power BI
 - **Ensured data structure compatibility** for smooth report building
 
