@@ -37,6 +37,8 @@ After loading the cleaned dataset to Power BI fronend, a well built data model w
 - **Used snowflake schema** to ensure efficient query performance
 - **Hid specific columns** to prevent incorrect filtering in dashboards
 
+![Data Model](screenshots/Data Model.png)
+
 ---
 
 ## DAX Measures
@@ -51,13 +53,29 @@ DAX (Data Analysis Expressions) was used to create custom calculations for dynam
 - **Previous Month Profit** - Gets the total profit from the last month
 - **Average Revenue Per Customer** - Calculates the average revenue generated per individual customer
 - **90 Days Rolling Profit** - Calculates total profit over the last 90 days, updating dynamically as new data comes in
-  - = CALCULATE([Total Profit], DATESINPERIOD('Calendar Lookup'[Date], MAX('Calendar Lookup'[Date]), -90, DAY))
-  * example
+  - <pre><code> 90 Days Rolling Profit = CALCULATE( [Total Profit], DATESINPERIOD( 'Calendar Lookup'[Date], MAX('Calendar Lookup'[Date]), -90, DAY ) ) </code></pre>
   
 ---
 
 ## Data Visualization
+The final data and DAX measures were used to display key metrics, trends, comparisons, dsitributions, top products/customers using different types of charts and visual elements.
 
+### Key Visual Elements
+- **Card** - To show summary metrics (Total Revenue, Total Orders)
+- **KPI, Gauge** - To track performance against set goals (Monthly Orders vs Target)
+- **Line Chart, Clustered Bar Chart, Donut Chart** - For trend analysis and comparisons (Orders Trending, Orders by Income Level)
+- **Map** - To visualize geographic data distribution
+- **Table, Matrix** - To display detailed records and summary metrics
+- **Slicers** for filtering by year, continent
 
+### Interactivity
+- **Drill-through** to product-level details
+- **Custom tooltip** on hover
+- **Page navigation** using buttons
+- **Custom slicer pane** using buttons and bookmarks
+
+---
+
+## Dashboard Breakdown
 
 
