@@ -115,5 +115,10 @@ Enhances the Order by Category clustered bar chart, providing additional details
 
 ---
 
+## 🔒 License
+This project is licensed under MIT License.
+
+---
+
 ## 🤝 Contributing
 Feel free to fork this project, raise issues, or suggest improvements.
