@@ -121,4 +121,8 @@ This project is licensed under MIT License.
 ---
 
 ## 🤝 Contributing
-Feel free to fork this project, raise issues, or suggest improvements.
+Contributions, issues, and feature requests are welcome!
+
+---
+
+⭐️ If you find this project useful, please consider giving it a star!
